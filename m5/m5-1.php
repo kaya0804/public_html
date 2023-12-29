@@ -7,8 +7,8 @@
     <?php
     //DB作成
         $dsn = 'mysql:dbname=tbformDB;host=localhost';
-        $user = 'kaya0804';
-        $password = 'ReKEN0804';
+        $user = '*******';
+        $password = '*********';
         $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
         $sql = "CREATE TABLE IF NOT EXISTS tbform"
         ." ("
